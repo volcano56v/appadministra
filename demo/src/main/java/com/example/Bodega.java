@@ -13,8 +13,7 @@ public class Bodega {
 
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
-        return super.toString();
+        return "Bodega{codigoDeBodega= "+codigoDeBodega+" productos= "+productos.toString()+"}";
     }
 
 }

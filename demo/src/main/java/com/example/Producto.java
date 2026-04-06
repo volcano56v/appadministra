@@ -13,7 +13,6 @@ public class Producto {
 
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
-        return super.toString();
+        return "Producto {codigoDeProducto= "+codigoDeProducto+" nombre= "+nombre+" descripcion= "+descripcion+"}";
     }
 }
