@@ -3,7 +3,18 @@ package com.example;
 import java.util.ArrayList;
 
 public class Bodega {
-    long codigoDeBodega;
-    ArrayList<Producto> productos =  new ArrayList<>();
+    private long codigoDeBodega;
+    private ArrayList<Producto> productos;
+
+    public Bodega(long codigoDeBodega){
+        this.codigoDeBodega = codigoDeBodega;
+        this.productos = new ArrayList<>();
+    }
+
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return super.toString();
+    }
 
 }
