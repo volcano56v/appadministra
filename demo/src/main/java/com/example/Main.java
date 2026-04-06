@@ -13,5 +13,7 @@ public class Main {
         System.out.println(estante);
         System.out.println("Este es Bodega:");
         System.out.println(bodega);
+
+        //esto es por que quiero ver algo
     }
 }
