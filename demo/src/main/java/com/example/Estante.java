@@ -26,6 +26,10 @@ public class Estante {
         return productos;
     }
 
+    public void agregarProductoEstante(Producto producto){
+        productos.add(producto);
+    }
+
     @Override
     public String toString() {
         return "Estante{codigoDeEstante= "+codigoDeEstante+" Categoria= "+categoria+"productos= "+productos.toString()+"}";

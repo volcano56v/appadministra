@@ -19,6 +19,10 @@ public class Bodega {
         return productos;
     }
 
+    public void agregarProductoBodega(Producto producto){
+        productos.add(producto);
+    }
+
     @Override
     public String toString() {
         return "Bodega{codigoDeBodega= "+codigoDeBodega+" productos= "+productos.toString()+"}";
