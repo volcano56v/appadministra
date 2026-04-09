@@ -11,6 +11,14 @@ public class Bodega {
         this.productos = new ArrayList<>();
     }
 
+    public long getCodigoDeBodega(){
+        return codigoDeBodega;
+    }
+
+    public ArrayList<Producto> geProductos(){
+        return productos;
+    }
+
     @Override
     public String toString() {
         return "Bodega{codigoDeBodega= "+codigoDeBodega+" productos= "+productos.toString()+"}";
