@@ -11,6 +11,18 @@ public class Producto {
         this.descripcion = descripcion;
     }
 
+    public long getCodigoDeProducto(){
+        return codigoDeProducto;
+    }
+
+    public String getNombre(){
+        return nombre;
+    }
+
+    public String getDecripcion(){
+        return descripcion;
+    }
+
     @Override
     public String toString() {
         return "Producto {codigoDeProducto= "+codigoDeProducto+" nombre= "+nombre+" descripcion= "+descripcion+"}";
