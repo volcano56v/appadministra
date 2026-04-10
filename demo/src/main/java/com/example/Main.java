@@ -19,8 +19,8 @@ public class Main {
 
     public static long generarNumerosAleatorios(){
         long resultado;
-        long min = 100L;
-        long max = 1000L;
+        long min = 100000000000L;
+        long max = 1000000000000L;
         RandomGenerator generator = RandomGenerator.of("L64X128MixRandom");
         resultado = generator.nextLong(min, max + 1);
         return resultado;
